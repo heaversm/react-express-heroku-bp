@@ -9,7 +9,7 @@ It is designed to implement a backend API that can query external APIs with axio
 
 * Make a copy of `env-sample` as `.env` and fill it with the API key for your desired service (if any). 
 * In the root directory, run `npm i` then `npm start`
-* In the `client` directory, run `npm i` then `npm start`
+* In another terminal window `cd` to the `client` directory, run `npm i` then `npm start`
 * View your app at [localhost:3000](https://localhost:3000)
 
 ## TO DEPLOY
