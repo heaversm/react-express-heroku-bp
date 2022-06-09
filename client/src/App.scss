@@ -1,0 +1,8 @@
+@use 'styles/vars';
+
+.App {
+  &-header {
+    border-bottom: 1px solid vars.$color-gray;
+    margin-bottom: vars.$space-std;
+  }
+}

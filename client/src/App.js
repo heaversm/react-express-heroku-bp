@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [data, setData] = React.useState(null);
