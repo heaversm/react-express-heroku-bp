@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import ReactDOM from "react-dom";
+import App from "./App";
 
-test('renders learn react link', () => {
+it("renders without crashing", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(<App />, div);
+});
+
+test("renders analyze button", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const analyzeButton = screen.getByText(/analyze/i);
+  expect(analyzeButton).toBeInTheDocument();
 });
